@@ -1,0 +1,14 @@
+# GitHub
+
+$ touch README			# create a file
+$ git init			# start a git branch 
+$ git add README		# add/steges the file created to git branch
+$ git commit -m 'comment'	# commit the files adding the message 'comment'
+$ git remote add origin https://github.com/paullojorgge/weather.git
+# create a remote named "origin" pointing at the GitHub repo
+$ git push origin master	# send the commits in the "master" branch to GitHub
+
+How to execute the script:
+- Need to have installed Python on your machine
+- Execute the script:
+	-> Example: $ ./weather.py
